@@ -1,0 +1,47 @@
+.small-card-box, .big-card-box {
+    width: 120px;
+    height: 140px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    .value {
+        font-weight: bold;
+    }
+}
+
+.big-card-box {
+    width: 200px;
+    height: 160px;
+    padding: 24px;
+
+    align-items: flex-start;
+
+    &>div {
+      margin-bottom: 10px;  
+    }
+
+    .label {
+        font-size: 1.2rem;
+    }
+
+    .temperature-details {
+        display: flex;
+        flex-direction: row-reverse;
+        .value {
+            font-size: 2rem;
+        }
+    }
+
+    .temperature-label {
+        width: 100%;
+        text-align: center;
+    }
+}

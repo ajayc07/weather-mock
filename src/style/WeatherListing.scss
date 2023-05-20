@@ -1,0 +1,17 @@
+.weather-listing-container, .favorite-region-listing {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 12px 24px 0;
+
+    column-gap: 10px;
+}
+
+.weather-listing-container {
+    min-height: 200px;
+}
+
+.favorite-region-listing {
+    column-gap: 24px;
+}
